@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+margin: 0;
+padding: 0;
+width: 100%;
+
+	
+}
+#entete{
+	margin: 0;
+	padding: 0;
+	width: 100%; 
+	position:relative;
+	overflow: hidden;
+	background-color: transparent;
+	z-index: 1;
+}
+
+.nomsite{
+	font-size: 50px;
+	text-align: center;
+	margin: 0;
+	padding-top: 5%;
+	color:black;
+	position: relative;
+	font-family: 'Times New Roman', Times, serif;
+
+}
+#formulaire{
+	position:relative;
+	border: 1px solid #FFF;
+	border-left: none;border-right: none;
+	background-color:regba(000,000,000,0.2) ;
+	margin-left: auto; margin-right: auto;
+	width: 70%;min-height: 10%;
+	text-align: center;
+	padding: 2%;
+
+}
+
+.image{
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+}
+/*----------------login------------*/
+a{
+	text-decoration:none;
+}
+#entete.login{
+	opacity:0.8;
+	color:white;
+	padding:14px 20px;
+	margin:8px;
+    border: 1px solid #f30;
+    border-right:#F30;
+	cursor:pointer;
+	width:5%;
+	right:0;
+	position:absolute;
+	z-index:10;
+}
+#entete.login:hover{
+	opacity:1; background-color:#00F; border:none;
+	
+}
+
+.imageback{
+	background-image:url(image/DPP_887.JPG);
+	height:150px;
+	width:100%;
+	display:flex;
+	justify-content:flex-end;
+	
+}
+
+.client{
+	display: flex;
+	justify-content: center;
+	align-items: center	;
+}
+
+.client a {
+	margin-right:20px;
+	color:white;
+	background-color:red;
+	height:30px;
+	padding: 0 40px;
+	text-align:center;
+	align-items:center;
+	border-radius:25px;
+	
+}
+/*-------------page login-------------*/
+#container{
+  width: 400px; margin: 0 auto;
+  margin-top:10%;	
+}
+#container h1{
+	width:38%; margin:0 auto;
+	padding-bottom:10px;
+}
+.formulaire{
+	width:100%;
+	padding:30px;
+	border:1px solid #f1f1f1;
+	background:#fff;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.2) 0 5px 5px 0 rgba (0,0,0,0.25);
+}
+.zonetext{
+	color:white;
+	padding: 14px 20px; margin: 8px 0;
+border :1px solid #f30;
+color:black;
+	cursor: pointer;
+	width:100%;
+
+}
+
+
+
+.submit{
+    background-color:#F30;
+	color:white;
+	padding: 14px 20px; margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width:100%;
+}
+.submit:hover{
+	background-color:white;
+	color: #F30;
+	border: 1px, solid #F30;
+	
+}
+
+
+
+#motcle{
+	height: 30px;
+	width: 300px;
+	border:none;padding-left: 2px;
+}
+.btfind{
+	height: 30px;
+	width: 300px;
+	border:none; background-color:#F30 ;
+	color: cornsilk;
+}
+#article{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2%;
+	vertical-align: middle;
+    
+	
+}
+
+.test{
+	
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.test1{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    
+    
+}
+
+p{
+    margin: 10px;
+    border: 0px solid black;
+   /* background-color: brown;*/
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+br{
+
+    margin: 10px;
+}
+#globl{
+	width: 100%;
+	padding: 5px;
+	margin: 10px;
+
+}
+#globl #profil{
+	width: 20%;
+	vertical-align: middle;
+	min-height: 100px;
+	display: inline-block;border: 1px solid#f1f1f1;
+	background: #fff;
+	box-shadow:  0 0 20px 0 rgba(0,0,0,0.2) 0 5px 5px 0 rgba (0,0,0,0.25);
+}
+#globl #tableaubord{
+	box-shadow:  0 0 20px 0 rgba(0,0,0,0.2) 0 5px 5px 0 rgba (0,0,0,0.25);
+	min-height: 100px;
+	display: inline-block;border: 1px solid#f1f1f1;
+	background: #fff;
+	width: 70%;
+	padding:20px;
+	margin: 5px;
+	vertical-align: middle;
+}
+
+table{
+	caption-side: bottom;
+}
+td,th{
+	border: none;
+	padding: 10px;
+}
+th{
+	border: none;background-color: #F30;padding: 10px;
+}
